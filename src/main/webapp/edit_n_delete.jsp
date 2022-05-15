@@ -190,19 +190,19 @@ padding: 20px;
     	        	account_number: "required"
     	        },
     	        messages: {
-    	        	id: "N Required!",
-    	        	fname: "F Required!",
-    	        	lname: "l Required!",
-    	        	mobile: "m Required!",
+    	        	id: "ID Required!",
+    	        	fname: "first name  Required!",
+    	        	lname: "last name Required!",
+    	        	mobile: "phone number Required!",
     	        	email: {
     	                email: "format",
-    	                required: "required"
+    	                required: "email required"
     	            },
 
-    	        	nic: "n Required!",
-    	        	address: "a Required!",
-    	        	password: "p Required!",
-    	        	account_number: "a Required!"
+    	        	nic: "NIC Required!",
+    	        	address: "address Required!",
+    	        	password: "password Required!",
+    	        	account_number: "account num Required!"
     	        },
     	        submitHandler: function () {
     	        	var fromData = JSON.stringify({

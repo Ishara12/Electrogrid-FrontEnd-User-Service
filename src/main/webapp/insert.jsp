@@ -6,7 +6,8 @@
 href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
 rel="stylesheet"
 integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-crossorigin="anonymous"><style>
+crossorigin="anonymous">
+<style>
 .row{
 margin-top: 2em;
 }
@@ -163,19 +164,19 @@ $(document).ready(function () {
         	account_number: "required"
         },
         messages: {
-        	id: "N Required!",
-        	fname: "F Required!",
-        	lname: "l Required!",
-        	mobile: "m Required!",
+        	id: "ID Required!",
+        	fname: "first name Required!",
+        	lname: "last name Required!",
+        	mobile: "phone number Required!",
         	email: {
                 email: "format",
-                required: "required"
+                required: "email required"
             },
 
-        	nic: "n Required!",
-        	address: "a Required!",
-        	password: "p Required!",
-        	account_number: "a Required!"
+        	nic: "NIC Required!",
+        	address: "address Required!",
+        	password: "password Required!",
+        	account_number: "account num Required!"
         },
         submitHandler: function () {
         	var fromData = JSON.stringify({
